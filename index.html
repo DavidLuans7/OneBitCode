@@ -22,12 +22,18 @@
             </label>
             <p>
                 <select name="ServiceQuality" id="ServiceQuality">
-                    <option>30% - Incrível</option>
-                    <option>20% - Ótimo</option>
-                    <option>10% - Bom</option>
-                    <option>05% - Regular</option>
+                    <option disable selected>Escolha uma opção</option>
+                    <option value="0,3">30% - Incrível</option>
+                    <option value="0,2">20% - Ótimo</option>
+                    <option value="0,1">10% - Bom</option>
+                    <option value="0,05">05% - Regular</option>
                     <option>00% - Ruim</option>
                 </select>
+            </p>
+            <label for="AllPeople">
+                <p>Quantas pessoas vão dividir a conta?</p>               
+            </label>
+            <input type="number" placeholder="10" name="AllPeople" id="AllPeople"> pessoa(s)
             </p>
         </form>
     </div>
