@@ -15,7 +15,7 @@ function calculateTip(event) {
     } else {
         document.getElementById('each').style.display = "block"
     }
-
+    console.log(Bill, ServiceQuality, AllPeople)
     let total = (Bill * ServiceQuality) / AllPeople;
     total = total.toFixed(2);
     document.getElementById('tip').innerHTML = total;
